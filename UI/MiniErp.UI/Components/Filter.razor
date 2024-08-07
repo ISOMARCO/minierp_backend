@@ -1,0 +1,54 @@
+@inject HttpClient Http
+<div class="card card-collapsed">
+    <div class="card-header">
+        <h3 class="card-title">@Title</h3>
+        <div class="card-tools">
+            <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                <i class="fas fa-plus"></i>
+            </button>
+        </div>
+    </div>
+    <div class="card-body">
+        @foreach(var field in FilterForms)
+        {
+            @if (field.Label != null)
+            {
+                <div class="form-group mb-3">
+                    <label for="@field.Name">@field.Label</label>
+                    <input type="@field.Type" class="form-control" placeholder="@field.Placeholder" name="@field.Name" id="@field.Name" @bind="@field.Value" readonly="@field.ReadOnly">
+                </div>
+            }
+            else
+            {
+                @if (field.Type == "checkbox")
+                {
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">
+                                <input type="checkbox" name="@field.Name" id="@field.Name" disabled="@field.ReadOnly" @bind="@field.IsChecked">
+                            </span>
+                        </div>
+                        <input type="text" class="form-control" readonly="readonly" placeholder="@field.Placeholder">
+                    </div>
+                }
+                else
+                {
+                    <div class="input-group mb-3">
+                        <input type="@field.Type" class="form-control" placeholder="@field.Placeholder" id="@field.Name" name="@field.Name" @bind="@field.Value" readonly="@field.ReadOnly">
+                        <div class="input-group-append">
+                            <label for="@field.Name" class="input-group-text"><i class="@field.Icon"></i></label>
+                        </div>
+                    </div>
+                }
+            }
+        }
+        <button type="button" class="btn btn-secondary btn-block" @onclick="Search">Search <i class="fa-brands fa-searchengin"></i></button>
+        <button type="button" class="btn btn-danger btn-block" @onclick="ClearFilter">Clear Filter <i class="fa-regular fa-circle-xmark"></i></button>
+    </div>
+</div>
+@code {
+    [Parameter] public string Title { get; set; } = "Filter";
+    [Parameter] public List<Modal.FormField> FilterForms { get; set; } = new();
+    [Parameter] public EventCallback ClearFilter { get; set; } = EventCallback.Empty;
+    [Parameter] public EventCallback Search { get; set; } = EventCallback.Empty;
+}

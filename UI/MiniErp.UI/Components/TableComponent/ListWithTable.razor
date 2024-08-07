@@ -1,0 +1,89 @@
+@typeparam TItemList where TItemList : MiniErp.UI.Dtos.IList
+@inject HttpClient Http
+@inject IJSRuntime JS
+<div class="userDatatable adv-table-table global-shadow border-light-0 w-100 adv-table">
+    <div class="table-responsive">
+        <div class="adv-table-table__header">
+            <h4>@TableParameters.Title</h4>
+            <div class="adv-table-table__button">
+                <div class="dropdown">
+                    <a class="btn btn-primary dropdown-toggle dm-select" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Export
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">PDF</a>
+                        <a class="dropdown-item" href="#">Excel</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="filter-form-container"></div>
+        <table class="table mb-0 table-borderless adv-table mt-2" data-sorting="true" data-filter-container="#filter-form-container" data-paging-current="1" data-paging-position="right" data-paging-size="10">
+            <thead>
+                <tr class="userDatatable-header">
+                    <th>
+                        <span class="userDatatable-title">id</span>
+                    </th>
+
+                    @foreach(var column in TableParameters.Columns!)
+                    {
+                        <th>
+                            <span class="userDatatable-title">@column</span>
+                        </th>
+                    }
+                    <th>
+                        <span class="userDatatable-title float-end">Action</span>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Items!)
+                {
+                    @TableParameters.ItemBodySelector(item);
+                }
+                <td>
+                    <ul class="orderDatatable_actions mb-0 d-flex flex-wrap">
+                        <li>
+                            <a href="#" class="edit">
+                                <i class="uil uil-edit"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="remove">
+                                <i class="uil uil-trash-alt"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </td>
+            </tbody>
+        </table>
+    </div>
+</div>
+@code 
+{
+    private List<TItemList>? Items { get; set; } = [];
+    [Parameter] public required TableParameter TableParameters { get; set; }
+    [Parameter] public Func<TItemList, string>? ItemBodySelector { get; set; }
+    
+    public class TableParameter
+    {
+        public required string Controller { get; set; }
+        public string? Action { get; set; }
+        public string? QueryString {get; set;}
+        public required string Title { get; set; } = "Data table";
+        public List<string>? Columns { get; set; }
+        public Func<TItemList, RenderFragment> ItemBodySelector { get; set; } = item => builder => builder.AddContent(0, "No data");
+    }
+
+    private async Task GetItems()
+    {
+        Items = await Http.GetFromJsonAsync<List<TItemList>>($"{TableParameters.Controller}/{TableParameters.Action}?{TableParameters.QueryString}");
+        StateHasChanged();
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await GetItems();
+    }
+}

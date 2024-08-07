@@ -1,0 +1,17 @@
+﻿version: '3.8'
+
+services:
+  postgres:
+    image: postgres:latest
+    container_name: postgres_container
+    environment:
+      POSTGRES_USER: erp
+      POSTGRES_PASSWORD: 12345678
+      POSTGRES_DB: minierp
+    ports:
+      - "5435:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:

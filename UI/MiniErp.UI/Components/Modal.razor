@@ -1,0 +1,222 @@
+@inject IJSRuntime JS
+@inject HttpClient Http
+<div class="modal fade" id="@($"{ModalParameters.ModalId}{(string.IsNullOrEmpty(ExtraModalId) ? "" : $"-{ExtraModalId}")}")">
+    <div class="modal-dialog modal-@ModalParameters.ModalSize">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">@ModalParameters.ModalTitle</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    @foreach(var field in FormFields)
+                    {
+                        field.ReadOnly = !ModalParameters.ShowSaveButton;
+                        @if (field.Type == "hidden")
+                        {
+                            <input type="hidden" name="@field.Name" @bind="@field.Value"/>
+                        }
+                        else
+                        {
+                            <div class="col-md-@field.ColSize">
+                                @if(field.Label != null)
+                                {
+                                <div class="form-group mb-3">
+                                    <label for="@field.Name">@field.Label</label>
+                                    <input type="@field.Type" class="form-control" placeholder="@field.Placeholder" name="@field.Name" id="@field.Name" @bind="@field.Value" readonly="@field.ReadOnly">
+                                </div>
+                                }
+                                else
+                                {
+                                @if (field.Type == "checkbox")
+                                {
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                                    <span class="input-group-text">
+                                                        <input type="checkbox" name="@field.Name" id="@field.Name" disabled="@field.ReadOnly" @bind="@field.IsChecked">
+                                                    </span>
+                                    </div>
+                                    <input type="text" class="form-control" readonly="readonly" placeholder="@field.Placeholder">
+                                </div>
+                                }
+                                else
+                                {
+                                <div class="input-group mb-3">
+                                    <input type="@field.Type" class="form-control" placeholder="@field.Placeholder" id="@field.Name" name="@field.Name" @bind="@field.Value" readonly="@field.ReadOnly">
+                                    <div class="input-group-append">
+                                        <label for="@field.Name" class="input-group-text"><i class="@field.Icon"></i></label>
+                                    </div>
+                                </div>
+                                }
+                                }
+                            </div>
+                        }
+                        
+                    }
+                </div>
+            </div>
+            @if (ModalParameters.ShowSaveButton)
+            {
+                <div class="modal-footer justify-content-between">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn @ModalParameters.SaveButtonClass" @onclick="OnSaveButtonClick">
+                        @((MarkupString)(String.IsNullOrEmpty(ModalParameters.ButtonIcon)
+                            ? ""
+                            : $"<i class='{ModalParameters.ButtonIcon}'></i>"))
+                        &nbsp;@ModalParameters.SaveButtonText
+                    </button>
+                    @if (IsSaving)
+                    {
+                    <div class="alert alert-info fixed-bottom">
+                        <div class="d-flex justify-content-between">
+                            <span>Processing, please wait... <strong>@(5 - Countdown) seconds remaining</strong></span>
+                            <button class="btn btn-danger" style="float: right;" @onclick="CancelSave">Cancel</button>
+                            <button class="btn btn-success" style="float: left;" @onclick="OnConfirmButtonClick">Confirm</button>
+                        </div>
+                    </div>
+                    }
+                </div>
+            }
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+@code {
+    [Parameter] 
+    public List<FormField> FormFields { get; set; } = new List<FormField>();
+    [Parameter] 
+    public ModalParameter ModalParameters { get; set; } = new ModalParameter();
+    [Parameter]
+    public EventCallback OnSave { get; set; }
+    [Parameter]
+    public string? ExtraModalId { get; set; }
+    
+    public class ModalParameter
+    {
+        public string ModalId { get; set; } = "modal-default";
+        public string ModalTitle { get; set; } = "Default Modal";
+        public string ModalSize { get; set; } = "lg";
+        public string SaveButtonText { get; set; } = "Save changes";
+        public string SaveButtonClass { get; set; } = "btn-primary";
+        public string? ButtonIcon { get; set; }
+        public bool ShowSaveButton { get; set; } = true;
+        public string Method
+        {
+            get => _method;
+            set => _method = value.ToLower();
+        }
+        private string _method = "post";
+        public string? Controller { get; set; }
+        public string? Action { get; set; }
+        public string? QueryString { get; set; }
+    }
+
+    public class FormField
+    {
+        public short ColSize { get; set; } = 12;
+        public string ElementType { get; set; } = "input";
+        public string Type { get; set; } = "text";
+        public string? Placeholder { get; set; }
+        public string Icon { get; set; } = "fas fa-user";
+        public string? Value { get; set; }
+        public string Name { get; set; }
+        public bool ReadOnly { get; set; } = false;
+        public string? Label { get; set; }
+        public List<Option>? Options { get; set; }
+
+        public bool IsChecked
+        {
+            get => Value == "true";
+            set => Value = value.ToString().ToLower();
+        }
+    }
+
+    public abstract class Option
+    {
+        public string Value { get; set; }
+        public string Text { get; set; }
+    }
+
+    private bool IsSaving { get; set; } = false;
+    private int Countdown { get; set; } = 0;
+    private CancellationTokenSource? _cts;
+    
+    private async Task OnSaveButtonClick()
+    {
+        IsSaving = true;
+        Countdown = 0;
+        _cts = new CancellationTokenSource();
+        var token = _cts.Token;
+        try
+        {
+            for (int i = 0; i < 5; i++)
+            {
+                await Task.Delay(1000, token);
+                Countdown++;
+                StateHasChanged();
+            }
+            await SaveData();
+        }
+        catch (TaskCanceledException)
+        {
+        }
+        finally
+        {
+            IsSaving = false;
+            StateHasChanged();
+        }
+    }
+
+    private void CancelSave()
+    {
+        _cts?.Cancel();
+        IsSaving = false;
+        StateHasChanged();
+    }
+
+    private async Task SaveData()
+    {
+        Dictionary<string, string?> formData = FormFields.ToDictionary(
+            field => field.Name,
+            field => field.Value
+        );
+        HttpResponseMessage response;
+        if(ModalParameters.Method == "post")
+        {
+            response = await Http.PostAsJsonAsync<object>($"{ModalParameters.Controller}/{ModalParameters.Action}?{ModalParameters.QueryString}", formData);
+        }
+        else
+        {
+            response = await Http.PutAsJsonAsync<object>($"{ModalParameters.Controller}/{ModalParameters.Action}?{ModalParameters.QueryString}", formData);
+        }
+        if (response.IsSuccessStatusCode)
+        {
+            await JS.InvokeVoidAsync("closeModal", ModalParameters.ModalId+(string.IsNullOrEmpty(ExtraModalId) ? "" : "-"+ExtraModalId));
+            await SaveChanges();
+        }
+    }
+    
+    private async void OnConfirmButtonClick()
+    {
+        if (IsSaving)
+        {
+            CancelSave();
+            await SaveData();
+        }
+        else
+        {
+            await OnSaveButtonClick();
+        }
+    }
+
+    private async Task SaveChanges()
+    {
+        if (OnSave.HasDelegate)
+        {
+            await OnSave.InvokeAsync(null);
+        }
+    }
+}

@@ -1,0 +1,152 @@
+@typeparam TItemList where TItemList : MiniErp.UI.Dtos.IList
+@using System.Reflection
+@inject HttpClient Http
+<div class="row">
+    <div class="col-md-2">
+        <Filter Title="@FilterTitle"
+                FilterForms="FilterForms"
+                ClearFilter="OnModalSaveAsync"
+                Search="OnSearchButtonClickAsync"></Filter>
+    </div>
+    <div class="col-md-10">
+        <div class="card">
+            <div class="card-header">
+                <a href="javascript:void(0)" style="float: left; border-radius: 20px;" class="btn btn-secondary mr-4"><i class="fas fa-filter"></i></a>
+                <a href="javascript:void(0)" style="float: right; border-radius: 20px;" class="btn btn-primary" data-toggle="modal" data-target="#@ModalParameters.ModalId"><i class="fas fa-plus"></i></a>
+                <a href="javascript:void(0)" style="float: right; border-radius: 20px;" class="btn btn-secondary mr-3" @onclick="OnModalSaveAsync"><i class="fa-solid fa-arrows-rotate"></i></a>
+            </div>
+            <div class="card-body">
+                @foreach (TItemList item in Items)
+                {
+                    <div class="card collapsed-card">
+                        <div class="card-header">
+                            <h3 class="card-title">@ItemTitleSelector(item)</h3>
+                            <div class="card-tools">
+                                <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card-body" style="overflow-x: scroll;">
+                            @if (ListParameters.UseTable)
+                            {
+                                <table class="table table-bordered">
+                                    <thead>
+                                    <tr>
+                                        @foreach (var column in ListParameters.TableColumns)
+                                        {
+                                            <th>@column</th>
+                                        }
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    @ListParameters.ItemBodySelector(item)
+                                    </tbody>
+                                </table>
+                            }
+                            else
+                            {
+                                @ListParameters.ItemBodySelector(item)
+                            }
+                        </div>
+                        <div class="card-footer">
+                            <a href="javascript:void(0)" style="float: left;" class="btn btn-outline-success" data-toggle="modal" data-target="#@UpdateModalParameters.ModalId-@item.Id"><i class="fa-solid fa-pencil"></i></a>
+                            <Modal ModalParameters="UpdateModalParameters"
+                                   FormFields="@(GetUpdateFormFields(item))"
+                                   ExtraModalId="@item.Id.ToString()"
+                                   OnSave="OnModalSaveAsync">
+                            </Modal>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+<Modal  ModalParameters="ModalParameters"
+        FormFields="FormFields"
+        OnSave="OnModalSaveAsync">
+</Modal>
+@code {
+    private List<TItemList>? Items { get; set; } = new();
+    [Parameter]
+    public CardParameter CardParameters { get; set; } = new();
+    [Parameter] 
+    public ListParameter ListParameters { get; set; } = new();
+    [Parameter]
+    public Func<TItemList, string>? ItemTitleSelector { get; set; }
+    [Parameter]
+    public Func<TItemList, string>? ItemBodySelector { get; set; }
+    [Parameter]
+    public Modal.ModalParameter ModalParameters { get; set; } = new();
+    [Parameter] 
+    public List<Modal.FormField> FormFields { get; set; } = new();
+    [Parameter] 
+    public Modal.ModalParameter UpdateModalParameters { get; set; } = new();
+    [Parameter] 
+    public List<Modal.FormField> UpdateFormFields { get; set; } = new();
+    [Parameter] 
+    public List<Modal.FormField> FilterForms { get; set; } = new();
+    [Parameter]
+    public string? FilterTitle { get; set; }
+    
+    protected override async Task OnInitializedAsync()
+    {
+        await OnModalSaveAsync();
+    }
+    public class CardParameter
+    {
+        public bool HasFilter { get; set; } = true;
+        public string? Title { get; set; }
+    }
+
+    private List<Modal.FormField> GetUpdateFormFields(TItemList item)
+    {
+        List<Modal.FormField> formFields = new List<Modal.FormField>();
+        PropertyInfo[] properties = item.GetType().GetProperties();
+        
+        for (int i = 0; i < properties.Length; i++)
+        {
+            PropertyInfo property = properties[i];
+            formFields.Add(new Modal.FormField
+            {
+                ColSize = UpdateFormFields[i].ColSize,
+                Name = UpdateFormFields[i].Name,
+                Placeholder = UpdateFormFields[i].Placeholder,
+                Icon = UpdateFormFields[i].Icon,
+                Value = property.GetValue(item)?.ToString(),
+                Type = UpdateFormFields[i].Type
+            });
+        }
+
+        return formFields;
+    }
+    
+    public class ListParameter
+    {
+        public string Controller { get; set; }
+        public string? Action { get; set; }
+        public string? QueryString { get; set; }
+        public bool UseTable { get; set; } = true;
+        public List<string> TableColumns { get; set; } = new List<string>();
+        public Func<TItemList, RenderFragment> ItemBodySelector { get; set; } = item => builder => builder.AddContent(0, "No data");
+    }
+    
+    private async Task OnModalSaveAsync()
+    {
+        Items = await Http.GetFromJsonAsync<List<TItemList>>($"{ListParameters.Controller}/{ListParameters.Action}?{ListParameters.QueryString}");
+        StateHasChanged();
+    }
+
+    private async Task OnSearchButtonClickAsync()
+    {
+        Dictionary<string, string?> formData = FilterForms.ToDictionary(
+            field => field.Name,
+            field => field.Value
+        );
+        var queryString = string.Join("&", formData.Select(kvp => $"{kvp.Key}={Uri.EscapeDataString(kvp.Value ?? string.Empty)}"));
+        Items = await Http.GetFromJsonAsync<List<TItemList>>($"{ListParameters.Controller}/filter?{queryString}");
+        StateHasChanged();
+    }
+    
+}
