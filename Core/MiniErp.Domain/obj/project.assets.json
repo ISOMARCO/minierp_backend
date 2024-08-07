@@ -55,25 +55,36 @@
     ]
   },
   "packageFolders": {
-    "/Users/ismile/.nuget/packages/": {}
+    "C:\\Users\\ismay\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ismile/RiderProjects/minierp_backend/Core/MiniErp.Domain/MiniErp.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\ismay\\RiderProjects\\minierp_backend\\Core\\MiniErp.Domain\\MiniErp.Domain.csproj",
       "projectName": "MiniErp.Domain",
-      "projectPath": "/Users/ismile/RiderProjects/minierp_backend/Core/MiniErp.Domain/MiniErp.Domain.csproj",
-      "packagesPath": "/Users/ismile/.nuget/packages/",
-      "outputPath": "/Users/ismile/RiderProjects/minierp_backend/Core/MiniErp.Domain/obj/",
+      "projectPath": "C:\\Users\\ismay\\RiderProjects\\minierp_backend\\Core\\MiniErp.Domain\\MiniErp.Domain.csproj",
+      "packagesPath": "C:\\Users\\ismay\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ismay\\RiderProjects\\minierp_backend\\Core\\MiniErp.Domain\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/ismile/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\ismay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -113,7 +124,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400-preview.0.24324.5/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

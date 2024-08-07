@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XULRVvU9H4js/nhEciKzSx+LvJL9pB9Rgmr9/FEqBJiVr0981Vxm5EmGB2QJCYjuYJrpENPsR0Yku70rGUKlPA==",
+  "success": true,
+  "projectFilePath": "/Users/ismile/RiderProjects/MiniErpApi/MiniErpApi/Core/MiniErp.Domain/MiniErp.Domain.csproj",
+  "expectedPackageFiles": [
+    "/Users/ismile/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
