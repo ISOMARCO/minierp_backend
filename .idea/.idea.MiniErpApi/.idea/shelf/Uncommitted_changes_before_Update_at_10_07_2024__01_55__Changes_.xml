@@ -1,0 +1,339 @@
+<changelist name="Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]" date="1720562123809" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 10.07.2024, 01:55 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="Core/MiniErp.Domain/obj/Debug/net8.0/MiniErp.Domain.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="Core/MiniErp.Domain/obj/Debug/net8.0/MiniErp.Domain.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Domain.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Infrastructure/MiniErp.Infrastructure/bin/Debug/net8.0/MiniErp.Infrastructure.pdb" />
+    <option name="AFTER_PATH" value="Infrastructure/MiniErp.Infrastructure/bin/Debug/net8.0/MiniErp.Infrastructure.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Infrastructure.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Infrastructure/MiniErp.Infrastructure/obj/Debug/net8.0/MiniErp.Infrastructure.pdb" />
+    <option name="AFTER_PATH" value="Infrastructure/MiniErp.Infrastructure/obj/Debug/net8.0/MiniErp.Infrastructure.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Infrastructure1.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Infrastructure/MiniErp.Persistence/obj/Debug/net8.0/MiniErp.Persistence.csproj.CoreCompileInputs.cache" />
+    <option name="AFTER_PATH" value="Infrastructure/MiniErp.Persistence/obj/Debug/net8.0/MiniErp.Persistence.csproj.CoreCompileInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Persistence.csproj.CoreCompileInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Core/MiniErp.Domain/obj/Debug/net8.0/MiniErp.Domain.dll" />
+    <option name="AFTER_PATH" value="Core/MiniErp.Domain/obj/Debug/net8.0/MiniErp.Domain.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Domain.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Infrastructure/MiniErp.Persistence/obj/Debug/net8.0/MiniErp.Persistence.pdb" />
+    <option name="AFTER_PATH" value="Infrastructure/MiniErp.Persistence/obj/Debug/net8.0/MiniErp.Persistence.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Persistence.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Core/MiniErp.Application/obj/Debug/net8.0/MiniErp.Application.assets.cache" />
+    <option name="AFTER_PATH" value="Core/MiniErp.Application/obj/Debug/net8.0/MiniErp.Application.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Application.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Core/MiniErp.Domain/obj/Debug/net8.0/ref/MiniErp.Domain.dll" />
+    <option name="AFTER_PATH" value="Core/MiniErp.Domain/obj/Debug/net8.0/ref/MiniErp.Domain.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Domain1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Presentation/MiniErp.API/obj/Debug/net8.0/MiniErp.API.assets.cache" />
+    <option name="AFTER_PATH" value="Presentation/MiniErp.API/obj/Debug/net8.0/MiniErp.API.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.API.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Presentation/MiniErp.API/bin/Debug/net8.0/MiniErp.Persistence.pdb" />
+    <option name="AFTER_PATH" value="Presentation/MiniErp.API/bin/Debug/net8.0/MiniErp.Persistence.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Persistence1.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Infrastructure/MiniErp.Persistence/obj/Debug/net8.0/MiniErp.Persistence.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="Infrastructure/MiniErp.Persistence/obj/Debug/net8.0/MiniErp.Persistence.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Persistence.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Infrastructure/MiniErp.Persistence/obj/Debug/net8.0/MiniErp.Persistence.genruntimeconfig.cache" />
+    <option name="AFTER_PATH" value="Infrastructure/MiniErp.Persistence/obj/Debug/net8.0/MiniErp.Persistence.genruntimeconfig.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Persistence.genruntimeconfig.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Infrastructure/MiniErp.Persistence/bin/Debug/net8.0/MiniErp.Persistence.pdb" />
+    <option name="AFTER_PATH" value="Infrastructure/MiniErp.Persistence/bin/Debug/net8.0/MiniErp.Persistence.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Persistence2.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Presentation/MiniErp.API/obj/Debug/net8.0/ref/MiniErp.API.dll" />
+    <option name="AFTER_PATH" value="Presentation/MiniErp.API/obj/Debug/net8.0/ref/MiniErp.API.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.API.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Infrastructure/MiniErp.Persistence/obj/Debug/net8.0/MiniErp.Persistence.dll" />
+    <option name="AFTER_PATH" value="Infrastructure/MiniErp.Persistence/obj/Debug/net8.0/MiniErp.Persistence.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Persistence.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Core/MiniErp.Application/obj/Debug/net8.0/MiniErp.Application.dll" />
+    <option name="AFTER_PATH" value="Core/MiniErp.Application/obj/Debug/net8.0/MiniErp.Application.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Application.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Presentation/MiniErp.API/bin/Debug/net8.0/MiniErp.Domain.dll" />
+    <option name="AFTER_PATH" value="Presentation/MiniErp.API/bin/Debug/net8.0/MiniErp.Domain.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Domain2.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Infrastructure/MiniErp.Infrastructure/obj/Debug/net8.0/MiniErp.Infrastructure.assets.cache" />
+    <option name="AFTER_PATH" value="Infrastructure/MiniErp.Infrastructure/obj/Debug/net8.0/MiniErp.Infrastructure.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Infrastructure.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Infrastructure/MiniErp.Infrastructure/obj/Debug/net8.0/MiniErp.Infrastructure.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="Infrastructure/MiniErp.Infrastructure/obj/Debug/net8.0/MiniErp.Infrastructure.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Infrastructure.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Infrastructure/MiniErp.Infrastructure/bin/Debug/net8.0/MiniErp.Infrastructure.dll" />
+    <option name="AFTER_PATH" value="Infrastructure/MiniErp.Infrastructure/bin/Debug/net8.0/MiniErp.Infrastructure.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Infrastructure.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Core/MiniErp.Application/obj/Debug/net8.0/refint/MiniErp.Application.dll" />
+    <option name="AFTER_PATH" value="Core/MiniErp.Application/obj/Debug/net8.0/refint/MiniErp.Application.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Application1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Infrastructure/MiniErp.Persistence/obj/Debug/net8.0/MiniErp.Persistence.assets.cache" />
+    <option name="AFTER_PATH" value="Infrastructure/MiniErp.Persistence/obj/Debug/net8.0/MiniErp.Persistence.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Persistence.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Core/MiniErp.Domain/obj/Debug/net8.0/refint/MiniErp.Domain.dll" />
+    <option name="AFTER_PATH" value="Core/MiniErp.Domain/obj/Debug/net8.0/refint/MiniErp.Domain.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Domain3.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Presentation/MiniErp.API/obj/Debug/net8.0/MiniErp.API.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="Presentation/MiniErp.API/obj/Debug/net8.0/MiniErp.API.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.API.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Infrastructure/MiniErp.Persistence/bin/Debug/net8.0/MiniErp.Domain.dll" />
+    <option name="AFTER_PATH" value="Infrastructure/MiniErp.Persistence/bin/Debug/net8.0/MiniErp.Domain.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Domain4.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Infrastructure/MiniErp.Persistence/bin/Debug/net8.0/MiniErp.Application.dll" />
+    <option name="AFTER_PATH" value="Infrastructure/MiniErp.Persistence/bin/Debug/net8.0/MiniErp.Application.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Application2.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Presentation/MiniErp.API/obj/Debug/net8.0/refint/MiniErp.API.dll" />
+    <option name="AFTER_PATH" value="Presentation/MiniErp.API/obj/Debug/net8.0/refint/MiniErp.API.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.API1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Core/MiniErp.Domain/bin/Debug/net8.0/MiniErp.Domain.dll" />
+    <option name="AFTER_PATH" value="Core/MiniErp.Domain/bin/Debug/net8.0/MiniErp.Domain.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Domain5.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Presentation/MiniErp.API/bin/Debug/net8.0/MiniErp.API.pdb" />
+    <option name="AFTER_PATH" value="Presentation/MiniErp.API/bin/Debug/net8.0/MiniErp.API.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.API.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Infrastructure/MiniErp.Persistence/obj/Debug/net8.0/ref/MiniErp.Persistence.dll" />
+    <option name="AFTER_PATH" value="Infrastructure/MiniErp.Persistence/obj/Debug/net8.0/ref/MiniErp.Persistence.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Persistence1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Presentation/MiniErp.API/bin/Debug/net8.0/MiniErp.Domain.pdb" />
+    <option name="AFTER_PATH" value="Presentation/MiniErp.API/bin/Debug/net8.0/MiniErp.Domain.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Domain.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Core/MiniErp.Application/obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="Core/MiniErp.Application/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/project.nuget.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Presentation/MiniErp.API/bin/Debug/net8.0/MiniErp.Persistence.dll" />
+    <option name="AFTER_PATH" value="Presentation/MiniErp.API/bin/Debug/net8.0/MiniErp.Persistence.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Persistence2.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Presentation/MiniErp.API/obj/Debug/net8.0/MiniErp.API.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="Presentation/MiniErp.API/obj/Debug/net8.0/MiniErp.API.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.API.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Core/MiniErp.Application/bin/Debug/net8.0/MiniErp.Domain.dll" />
+    <option name="AFTER_PATH" value="Core/MiniErp.Application/bin/Debug/net8.0/MiniErp.Domain.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Domain6.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Infrastructure/MiniErp.Infrastructure/obj/Debug/net8.0/MiniErp.Infrastructure.dll" />
+    <option name="AFTER_PATH" value="Infrastructure/MiniErp.Infrastructure/obj/Debug/net8.0/MiniErp.Infrastructure.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Infrastructure1.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Core/MiniErp.Application/obj/Debug/net8.0/MiniErp.Application.pdb" />
+    <option name="AFTER_PATH" value="Core/MiniErp.Application/obj/Debug/net8.0/MiniErp.Application.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Application.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Infrastructure/MiniErp.Persistence/obj/Debug/net8.0/refint/MiniErp.Persistence.dll" />
+    <option name="AFTER_PATH" value="Infrastructure/MiniErp.Persistence/obj/Debug/net8.0/refint/MiniErp.Persistence.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Persistence3.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Presentation/MiniErp.API/bin/Debug/net8.0/MiniErp.Application.dll" />
+    <option name="AFTER_PATH" value="Presentation/MiniErp.API/bin/Debug/net8.0/MiniErp.Application.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Application3.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Presentation/MiniErp.API/obj/Debug/net8.0/MiniErp.API.genruntimeconfig.cache" />
+    <option name="AFTER_PATH" value="Presentation/MiniErp.API/obj/Debug/net8.0/MiniErp.API.genruntimeconfig.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.API.genruntimeconfig.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Presentation/MiniErp.API/bin/Debug/net8.0/MiniErp.Application.pdb" />
+    <option name="AFTER_PATH" value="Presentation/MiniErp.API/bin/Debug/net8.0/MiniErp.Application.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Application1.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Presentation/MiniErp.API/obj/Debug/net8.0/MiniErp.API.pdb" />
+    <option name="AFTER_PATH" value="Presentation/MiniErp.API/obj/Debug/net8.0/MiniErp.API.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.API1.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Core/MiniErp.Domain/obj/Debug/net8.0/MiniErp.Domain.pdb" />
+    <option name="AFTER_PATH" value="Core/MiniErp.Domain/obj/Debug/net8.0/MiniErp.Domain.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Domain1.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Core/MiniErp.Application/bin/Debug/net8.0/MiniErp.Application.pdb" />
+    <option name="AFTER_PATH" value="Core/MiniErp.Application/bin/Debug/net8.0/MiniErp.Application.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Application2.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Infrastructure/MiniErp.Infrastructure/obj/Debug/net8.0/ref/MiniErp.Infrastructure.dll" />
+    <option name="AFTER_PATH" value="Infrastructure/MiniErp.Infrastructure/obj/Debug/net8.0/ref/MiniErp.Infrastructure.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Infrastructure2.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Core/MiniErp.Application/bin/Debug/net8.0/MiniErp.Application.dll" />
+    <option name="AFTER_PATH" value="Core/MiniErp.Application/bin/Debug/net8.0/MiniErp.Application.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Application4.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Presentation/MiniErp.API/obj/Debug/net8.0/MiniErp.API.dll" />
+    <option name="AFTER_PATH" value="Presentation/MiniErp.API/obj/Debug/net8.0/MiniErp.API.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.API2.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Core/MiniErp.Application/obj/Debug/net8.0/ref/MiniErp.Application.dll" />
+    <option name="AFTER_PATH" value="Core/MiniErp.Application/obj/Debug/net8.0/ref/MiniErp.Application.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Application5.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Infrastructure/MiniErp.Persistence/obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="Infrastructure/MiniErp.Persistence/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/project.nuget1.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Infrastructure/MiniErp.Infrastructure/obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="Infrastructure/MiniErp.Infrastructure/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/project.nuget2.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Infrastructure/MiniErp.Infrastructure/obj/Debug/net8.0/refint/MiniErp.Infrastructure.dll" />
+    <option name="AFTER_PATH" value="Infrastructure/MiniErp.Infrastructure/obj/Debug/net8.0/refint/MiniErp.Infrastructure.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Infrastructure3.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Core/MiniErp.Domain/obj/Debug/net8.0/MiniErp.Domain.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="Core/MiniErp.Domain/obj/Debug/net8.0/MiniErp.Domain.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Domain.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Presentation/MiniErp.API/obj/Debug/net8.0/MiniErp.API.csproj.CoreCompileInputs.cache" />
+    <option name="AFTER_PATH" value="Presentation/MiniErp.API/obj/Debug/net8.0/MiniErp.API.csproj.CoreCompileInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.API.csproj.CoreCompileInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Core/MiniErp.Application/bin/Debug/net8.0/MiniErp.Domain.pdb" />
+    <option name="AFTER_PATH" value="Core/MiniErp.Application/bin/Debug/net8.0/MiniErp.Domain.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Domain2.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Core/MiniErp.Domain/obj/Debug/net8.0/MiniErp.Domain.csproj.CoreCompileInputs.cache" />
+    <option name="AFTER_PATH" value="Core/MiniErp.Domain/obj/Debug/net8.0/MiniErp.Domain.csproj.CoreCompileInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Domain.csproj.CoreCompileInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Core/MiniErp.Application/obj/Debug/net8.0/MiniErp.Application.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="Core/MiniErp.Application/obj/Debug/net8.0/MiniErp.Application.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Application.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Core/MiniErp.Domain/obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="Core/MiniErp.Domain/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/project.nuget3.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Infrastructure/MiniErp.Persistence/bin/Debug/net8.0/MiniErp.Persistence.dll" />
+    <option name="AFTER_PATH" value="Infrastructure/MiniErp.Persistence/bin/Debug/net8.0/MiniErp.Persistence.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Persistence4.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Infrastructure/MiniErp.Persistence/bin/Debug/net8.0/MiniErp.Domain.pdb" />
+    <option name="AFTER_PATH" value="Infrastructure/MiniErp.Persistence/bin/Debug/net8.0/MiniErp.Domain.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Domain3.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Core/MiniErp.Application/obj/Debug/net8.0/MiniErp.Application.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="Core/MiniErp.Application/obj/Debug/net8.0/MiniErp.Application.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Application.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Infrastructure/MiniErp.Persistence/obj/Debug/net8.0/MiniErp.Persistence.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="Infrastructure/MiniErp.Persistence/obj/Debug/net8.0/MiniErp.Persistence.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Persistence.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Core/MiniErp.Application/obj/Debug/net8.0/MiniErp.Application.csproj.CoreCompileInputs.cache" />
+    <option name="AFTER_PATH" value="Core/MiniErp.Application/obj/Debug/net8.0/MiniErp.Application.csproj.CoreCompileInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Application.csproj.CoreCompileInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Presentation/MiniErp.API/obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="Presentation/MiniErp.API/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/project.nuget4.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Core/MiniErp.Domain/obj/Debug/net8.0/MiniErp.Domain.assets.cache" />
+    <option name="AFTER_PATH" value="Core/MiniErp.Domain/obj/Debug/net8.0/MiniErp.Domain.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Domain.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Presentation/MiniErp.API/bin/Debug/net8.0/MiniErp.API.dll" />
+    <option name="AFTER_PATH" value="Presentation/MiniErp.API/bin/Debug/net8.0/MiniErp.API.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.API3.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Core/MiniErp.Domain/bin/Debug/net8.0/MiniErp.Domain.pdb" />
+    <option name="AFTER_PATH" value="Core/MiniErp.Domain/bin/Debug/net8.0/MiniErp.Domain.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Domain4.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Infrastructure/MiniErp.Persistence/bin/Debug/net8.0/MiniErp.Application.pdb" />
+    <option name="AFTER_PATH" value="Infrastructure/MiniErp.Persistence/bin/Debug/net8.0/MiniErp.Application.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.MiniErpApi/.idea/shelf/Uncommitted_changes_before_Update_at_10_07_2024,_01_55_[Changes]/MiniErp.Application3.pdb" />
+  </binary>
+</changelist>
