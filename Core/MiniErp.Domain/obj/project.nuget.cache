@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ZyuNaipUx/ZZh2Mwx7A7QNBY+ozR7KK21+5sO/g9yKoC4WR/wY1B+mAIz7sPFqaI/xn3htr1BlcP8Ee7fdyjaQ==",
+  "dgSpecHash": "N0MoE/a3Z1h+fgq18yuj8eZwTswd/CQhBUr09Wsx+RTv60q7JP0aMXHLTQ0XZ8rP2CpFb9ltiQihizGThnGaTw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ismay\\RiderProjects\\minierp_backend\\Core\\MiniErp.Domain\\MiniErp.Domain.csproj",
+  "projectFilePath": "/Users/ismile/RiderProjects/minierp_backend/Core/MiniErp.Domain/MiniErp.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ismay\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "/Users/ismile/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }
